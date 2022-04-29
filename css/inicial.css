@@ -1,0 +1,24 @@
+.box {
+    width: 400px;
+    height: 400px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    width: 250px;
+    height: 25px;
+    border: 1px solid #174DBA;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.box-form input{
+    padding: 7px;
+    margin-bottom: 20px;
+}

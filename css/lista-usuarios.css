@@ -1,0 +1,31 @@
+.container-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    width: 500px;
+    padding: 20px;
+    margin: 20px 20px 20px 0;
+    transition: all 0.3s ease-out;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.adm-usuarios {
+    padding: 100px;
+}
+
+.img {
+    max-width: 20px;
+    float: right;
+    cursor: pointer;
+}
+
+.foto {
+    max-width: 150px;
+    width: 150px;
+    float: center;
+}

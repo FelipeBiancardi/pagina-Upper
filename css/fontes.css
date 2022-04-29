@@ -1,0 +1,41 @@
+/* FONTES */
+
+.text-nome {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+}
+
+.title-primary-lg {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #174DBA;
+}
+
+.title-primary {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: #174DBA;
+}
+
+.content-gray-lg {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    color: #EFF0F3;
+}
+
+.content-primary {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #174DBA;
+} 
+
+.content-gray {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #888888;
+} 

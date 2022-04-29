@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UpperSoft</title>
+
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/fontes.css">
+    <link rel="stylesheet" href="./css/cadastro.css">
+</head>
+
+<body>
+
+    <nav>
+        <img src="img/logo-uppersoft.png" alt="logoupper">
+    </nav>
+
+    <div class="container">
+
+        <div class="box">
+
+            <h1 class="title-primary">Cadastro</h1>
+
+            <br>
+
+            <form class="form-cadastro">
+
+                <div class="name-container">
+                    <h3 class="content-primary">Nome Completo</h3>
+                    <input type="text" name="nome" id="input_nome" autocomplete="off">
+                </div>
+
+                <div class="email-container">
+                    <h3 class="content-primary">Email</h3>
+                    <input type="em" name="email" id="input_email" autocomplete="off">
+                </div>
+
+                <div class="estado-container">
+                    <h3 class="content-primary">Estado</h3>
+                    <input type="text" name="estado" id="input_estado" autocomplete="off">
+                </div>
+
+                <div class="sexo-container">
+                    <h3 class="content-primary">Sexo</h3>
+                    <div>
+                        <input type="radio" value="masculino" name="chose-sexo" id="masculino" checked>
+                        <label for="masculino">Masculino</label>
+                        <input type="radio" value="feminino" name="chose-sexo" id="feminino">
+                        <label for="feminino">Feminino</label>
+                        <input type="radio" value="outro" name="chose-sexo" id="outro">
+                        <label for="outro">Outro</label>
+                    </div>
+                </div>
+
+                <div class="senha-container">
+                    <h3 class="content-primary">Senha</h3>
+                    <input type="password" name="senha" id="input_senha" autocomplete="off">
+                </div>
+
+                <div class="csenha-container">
+                    <h3 class="content-primary">Confirmar Senha</h3>
+                    <input type="password" name="csenha" id="input_csenha" autocomplete="off">
+                </div>
+
+            </form>
+
+            <div class="button">
+                <button class="button-primary" id="btn_cadastrar">CADASTRAR</button>
+            </div>
+
+            <p class="content-gray">Já possui uma conta?<a href="index.html" class="botao"> Entre Aqui </a></p>
+
+        </div>
+
+    </div>
+
+    <script src="./js/cadastro.js"></script>
+
+</body>
+
+</html>
